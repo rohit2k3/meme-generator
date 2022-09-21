@@ -1,0 +1,29 @@
+
+nav {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.logo {
+    color: white;
+    font-weight: bolder;
+}
+.nav-tagline:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
+.nav-tagline {
+    color: white;
+    font-weight: lighter;
+    font-size: small;
+    margin:  auto 3px;
+}
+@media (max-width:660px) {
+    .logo {
+        font-size: 22px;
+    }
+    .nav-tagline {
+        font-size: 12px;
+    }
+}
