@@ -10,7 +10,7 @@ export default function Meme() {
     const [formData, setFormData] = useState({
         firsttext: "",
         secondtext: "",
-        randomImage: "https://i.imgflip.com/3l60ph.jpg"
+        randomImage: "https://i.imgflip.com/30b1gx.jpg"
     })
 
     useEffect(() => {
